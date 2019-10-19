@@ -7,7 +7,7 @@ import static org.junit.Assert.assertThat;
 public class SqMaxTest {
 
     @Test
-    public void whenFirstMax() {
+    public void whenFirstMax()  {
         SqMax check = new SqMax();
         int expected = 44;
         int max = check.max(44, 5, 5, 4);
