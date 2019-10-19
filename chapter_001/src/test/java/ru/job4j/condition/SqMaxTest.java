@@ -5,13 +5,6 @@ import static org.hamcrest.Matchers.is;
 import static org.junit.Assert.assertThat;
 
 public class SqMaxTest {
-    @Test
-    public void whenMaxOutOfFourth() {
-        SqMax check = new SqMax();
-        int expected = 44;
-        int max = check.max(33, 5, 44, 4);
-        assertThat(max, is(expected));
-    }
 
     @Test
     public void whenFirstMax() {
