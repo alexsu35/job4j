@@ -3,7 +3,7 @@ import org.junit.Test;
 import static org.hamcrest.Matchers.is;
 import static org.junit.Assert.assertThat;
 
-public class SqMaxTest  {
+public class SqMaxTest {
 
     @Test
     public void whenFirstMax() {
@@ -25,8 +25,8 @@ public class SqMaxTest  {
     public void whenThirdMax() {
         SqMax check = new SqMax();
         int expected = 44;
-        int max = check.max(1, 7, 44, 2);
-        assertThat(max, is(expected));
+        int result = check.max(33, 5, 44, 4);
+        assertThat(result, is(expected));
     }
 
     @Test
