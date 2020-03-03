@@ -4,7 +4,7 @@ package ru.job4j.array;
  * Класс для поиска элемента в массиве.
  *
  * @author Aleksandr S. (subbotin0035@yandex.ru)
- * @since 27.01.2020;
+ * @since 02.03.2020;
  */
 public class FindLoop {
     /**

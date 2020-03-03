@@ -8,7 +8,7 @@ import static org.junit.Assert.assertThat;
  * Класс для автоматического тестирования методов класса FindLoop.
  *
  * @author Aleksandr S. (subbotin0035@yandex.ru)
- * @since 27.01.2020;
+ * @since 02.03.2020;
  */
 public class FindLoopTest {
     /**
