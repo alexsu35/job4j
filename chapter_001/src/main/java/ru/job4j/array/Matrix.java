@@ -18,6 +18,7 @@ public class Matrix {
      * @return возращает заполненный массив.
      */
 
+
     public int[][] multiple(int size) {
         int[][] table = new int[size][size];
         for(int i = 1; i <= size; i++) {
