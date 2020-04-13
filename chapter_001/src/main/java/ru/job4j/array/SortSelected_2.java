@@ -19,6 +19,7 @@ public class SortSelected_2 {
      */
 
     public static int[] sort(int[] data) {
+        int temp;
         int min = MinDiapason.findMin(data, 0, data.length);
         int index = FindLoopRange.indexOf(data, min, 0, data.length);
 
@@ -26,6 +27,9 @@ public class SortSelected_2 {
             if (data[i]>min) {
                 data[i] = min;
             }
+            temp = data[min];
+            data[min] = data[i];
+            data[i] = temp;
         }
         return data;
     }
