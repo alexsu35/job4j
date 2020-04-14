@@ -20,10 +20,10 @@ public class SortSelected_2 {
 
     public static int[] sort(int[] data) {
         int temp;
-        int min = MinDiapason.findMin(data, 0, data.length);
-        int index = FindLoopRange.indexOf(data, min, 0, data.length);
 
         for (int i = 0; i<data.length; i++) {
+            int min = MinDiapason.findMin(data, 0, data.length);
+            int index = FindLoopRange.indexOf(data, min, 0, data.length);
             if (data[i]>min) {
                 data[i] = min;
             }
