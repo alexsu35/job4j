@@ -22,8 +22,8 @@ public class SortSelected_2 {
         int temp;
 
         for (int i = 0; i<data.length; i++) {
-            int min = MinDiapason.findMin(data, 0, data.length);
-            int index = FindLoopRange.indexOf(data, min, 0, data.length);
+            int min = MinDiapason.findMin(data, i, data.length);
+            int index = FindLoopRange.indexOf(data, min, i, data.length);
             if (data[i]>min) {
                 data[i] = min;
             }

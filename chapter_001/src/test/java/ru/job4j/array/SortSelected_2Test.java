@@ -26,6 +26,6 @@ public class SortSelected_2Test {
         int[] input = new int[] {-44, 6, 255, 33, -13, -1, 170};
         int[] result = SortSelected.sort(input);
         int[] expect = new int[] {-44, -13, -1, 6, 33, 170, 255};
-        assertThat (result, is(expect));
+        assertThat(result, is(expect));
     }
 }
