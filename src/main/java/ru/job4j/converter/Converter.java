@@ -4,22 +4,26 @@ public class Converter {
     public static int rubleToEuro(int value) {
         return value / 70;
     }
-    public static int EuroToruble(int value) {
+
+    public static int euroToruble(int value) {
         return value * 70;
     }
+
     public static int rubleToDollar(int value) {
 
         return value / 60;
     }
-    public static int DollarToruble(int value) {
+
+    public static int dollarToruble(int value) {
 
         return value * 60;
     }
+
     public static void main(String[] args) {
         int euro = rubleToEuro(140);
         int dollar = rubleToDollar(120);
-        int ruble1 = EuroToruble(3);
-        int ruble2 = DollarToruble(5);
+        int ruble1 = euroToruble(3);
+        int ruble2 = dollarToruble(5);
 
         System.out.println("140 rubles are " + euro + " euro.");
         System.out.println("120 rubles are " + dollar + " dollar.");

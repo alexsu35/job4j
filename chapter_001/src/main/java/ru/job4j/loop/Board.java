@@ -5,7 +5,7 @@ public class Board {
         for (int i = 0; i < height; i++) {
             for (int j = 0; j < width; j++) {
                 // условие проверки, что писать пробел или X
-                if ((i+j) % 2 != 0) {
+                if ((i + j) % 2 != 0) {
                     System.out.print("   ");
                 } else {
                     System.out.print("X  ");
