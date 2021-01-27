@@ -1,21 +1,20 @@
 package ru.job4j.condition;
 
-import org.junit.Assert;
 import org.junit.Test;
+import static org.hamcrest.number.IsCloseTo.closeTo;
+import static org.junit.Assert.assertThat;
+
+
 
 public class PointTest {
 
+    /**
+     *  Test distance
+     */
     @Test
-    public void distance1() {
-        double result1 = 2;
-        double out = Point.distance(0, 0, 2, 0);
-        Assert.assertEquals(result1, out, 001);
+    public void distanceToPoint() {
+        Point point = new Point(1, 1);
+        assertThat(point.distance(new Point(3, 8)), closeTo(7.28, 0.01));
     }
 
-    @Test
-    public void distance2() {
-        double result2 = 3;
-        double out = Point.distance(5, 1, 2, 1);
-        Assert.assertEquals(result2, out, 001);
-    }
 }
