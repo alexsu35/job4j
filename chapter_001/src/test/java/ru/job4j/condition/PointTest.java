@@ -17,4 +17,10 @@ public class PointTest {
         assertThat(point.distance(new Point(3, 8)), closeTo(7.28, 0.01));
     }
 
+    @Test
+    public void distanceToPoint2() {
+        Point point = new Point(3, 7);
+        assertThat(point.distance(new Point(2, 8)), closeTo(1.41, 0.01));
+    }
+
 }
