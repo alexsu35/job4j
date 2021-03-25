@@ -1,25 +1,31 @@
 package ru.job4j.inheritance;
 
 public class Profession {
+    private String name;    //Имя
+    private String surname; //Фамилия
+    private String education;   //Образование
+    private String birthday;    //День рождения
 
-    private String name;
-    private String surname;
-    private String education;
-    private Long birthday;
+    public Profession(String name, String surname, String education, String birthday) {
+        this.name = name;
+        this.surname = surname;
+        this.education = education;
+        this.birthday = birthday;
+    }
 
     public String getName() {
-        return name;
+        return this.name;
     }
 
     public String getSurname() {
-        return surname;
+        return this.surname;
     }
 
-    public String getEducation() {
-        return education;
+    public String education() {
+        return this.education;
     }
 
-    public Long getBirthday() {
-        return birthday;
+    public String getBirthday() {
+        return this.birthday;
     }
 }
