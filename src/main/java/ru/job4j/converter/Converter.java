@@ -45,14 +45,14 @@ public class Converter {
 
         int in3 = 3;
         int expected3 = 210;
-        int out3 = EuroToruble(in3);
-        boolean passed3 = expected3 == out3;
-        System.out.println("3 euro are 210. Test result : " + passed3);
+     //   int out3 = EuroToruble(in3);
+     //   boolean passed3 = expected3 == out3;
+     //   System.out.println("3 euro are 210. Test result : " + passed3);
 
         int in4 = 5;
         int expected4 = 300;
-        int out4 = DollarToruble(in4);
-        boolean passed4 = expected4 == out4;
-        System.out.println("5 dollar are 300. Test result : " + passed4);
+    //    int out4 = DollarToruble(in4);
+    //    boolean passed4 = expected4 == out4;
+    //    System.out.println("5 dollar are 300. Test result : " + passed4);
     }
 }

@@ -23,7 +23,7 @@ public class Matrix {
         for (int i = 1; i <= size; i++) {
             for (int k = 1; k <= size; k++) {
                 table[i - 1][k - 1] = i * k;
-                {
+            }
         }
         return table;
     }

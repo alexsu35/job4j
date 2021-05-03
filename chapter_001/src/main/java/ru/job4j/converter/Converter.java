@@ -55,4 +55,12 @@ public class Converter {
         boolean passed4 = expected4 == out4;
         System.out.println("5 dollar are 300. Test result : " + passed4);
     }
+
+    private static int DollarToruble(int in4) {
+        return 0;
+    }
+
+    private static int EuroToruble(int in3) {
+        return 0;
+    }
 }
