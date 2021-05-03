@@ -35,11 +35,9 @@ public class Library {
         System.out.println("---------------------------");
         for (int index = 0; index < liter.length; index++) {
             Book da = liter[index];
-            if(da.getName().equals("Clean code")) {
+            if (da.getName().equals("Clean code")) {
                 System.out.println(da.getName() + " - " + da.getPages() + " стр.");
             }
         }
-
-
     }
 }
