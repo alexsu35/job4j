@@ -32,11 +32,11 @@ public class Car {
         this.color = color;
     }
 
-    public void addDistance (int additinalDistance) {
+    public void addDistance(int additinalDistance) {
         distance += additinalDistance;
     }
 
-    public void addDistance (double additinalDistance) {
+    public void addDistance(double additinalDistance) {
         distance += additinalDistance;
     }
 
