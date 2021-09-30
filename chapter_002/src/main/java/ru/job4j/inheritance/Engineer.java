@@ -1,8 +1,8 @@
 package ru.job4j.inheritance;
 
 public class Engineer extends Profession {
-    private boolean knowledgeOffice; //Уменение работать с программами Microsoft Office
-    private String firmsType; //Работает в частной фирме или на государственном предприятии
+    private boolean knowledgeOffice;
+    private String firmsType;
 
     public Engineer(String name, String surname, String education, String birthday, boolean knowledgeOffice, String firmsType) {
         super(name, surname, education, birthday);

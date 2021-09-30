@@ -7,7 +7,7 @@ public class ArrayDefinition {
         float[] prices = new float[40];
         String[] names = new String[4];
 
-        names[0] = "Vitaliy Sokolov";
+        names[0] = "Vitaliy Sokolof";
         names[1] = "Sergey Golovach";
         names[2] = "Dmitry Hvatkov";
         names[3] = "Nikita Lomov";
@@ -16,7 +16,6 @@ public class ArrayDefinition {
         System.out.println(names[1]);
         System.out.println(names[2]);
         System.out.println(names[3]);
-
 
         System.out.println("Размер массива ages равен: " + ages.length);
         System.out.println("Размер массива ages равен: " + surnames.length);
