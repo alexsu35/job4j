@@ -15,5 +15,4 @@ public class Fit {
         double woman = womanWeight(155);
         System.out.println("Woman 155 sm is " + woman + "kg");
     }
-
 }

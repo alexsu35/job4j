@@ -63,4 +63,5 @@ public class Converter {
     private static int EuroToruble(int in3) {
         return 0;
     }
+
 }
