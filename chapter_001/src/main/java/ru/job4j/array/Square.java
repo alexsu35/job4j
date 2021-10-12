@@ -1,20 +1,6 @@
 package ru.job4j.array;
 
-/**
- * Class Square
- * Класс для заполнения массива
- *
- * @author Aleksandr S.
- * @version 1
- * @since 26.01.2020
- */
 public class Square {
-    /**
-     * Возведение в квадрат
-     *
-     * @param bound - количество чисел в массиве.
-     * @return Массив вычисленных значений.
-     */
 
     public static int[] calculate(int bound) {
         int[] rst = new int[bound];
