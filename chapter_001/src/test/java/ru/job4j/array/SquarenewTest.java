@@ -4,6 +4,7 @@ import org.junit.Assert;
 import org.junit.Test;
 
 public class SquarenewTest {
+
     @Test
     public void whenBound3Then114() {
         int bound = 3;
