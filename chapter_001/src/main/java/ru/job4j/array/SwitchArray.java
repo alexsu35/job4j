@@ -13,6 +13,7 @@ public class SwitchArray {
         int[] rsl = swapBorder(nums);
         for (int index = 0; index < rsl.length; index++) {
             System.out.println(rsl[index]);
+
         }
     }
 }
