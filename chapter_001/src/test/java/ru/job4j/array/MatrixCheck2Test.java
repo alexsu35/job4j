@@ -75,4 +75,5 @@ public class MatrixCheck2Test {
         boolean result = MatrixCheck.monoVertical(input, column);
         Assert.assertTrue(result);
     }
+
 }
