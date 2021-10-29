@@ -91,4 +91,17 @@ public class MatrixCheck2Test {
         Assert.assertTrue(result);
     }
 
+
+    @Test
+    public void whenHasMonoVerticalNo() {
+        char[][] input = {
+                {' ', ' ', 'X'},
+                {' ', 'X', ' '},
+                {' ', 'X', ' '},
+        };
+        int column = 1;
+        boolean result = MatrixCheck2.monoVertical(input, column);
+        assertThat(result, is(false));
+    }
+
 }
