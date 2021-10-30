@@ -100,7 +100,7 @@ public class MatrixCheck2Test {
         };
         int column = 1;
         boolean result = MatrixCheck2.monoVertical(input, column);
-        assertThat(result, is(false));
+        Assert.assertFalse(result);
     }
 
 }
