@@ -28,7 +28,7 @@ public class MatrixCheck2Test {
         };
         int row = 0;
         boolean result = MatrixCheck2.monoHorizontal(input, row);
-        assertThat(result, is(false));
+        Assert.assertFalse(result);
     }
 
     @Test
@@ -90,7 +90,6 @@ public class MatrixCheck2Test {
         boolean result = MatrixCheck2.monoVertical(input, column);
         Assert.assertTrue(result);
     }
-
 
     @Test
     public void whenHasMonoVerticalNo() {
