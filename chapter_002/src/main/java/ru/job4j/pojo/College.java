@@ -11,6 +11,9 @@ public class College {
         student.setGroup("Подготовительная");
         student.setEnrollment(new Date());
 
-        System.out.println(student.getSurname() + " " + student.getName() + " " + student.getMiddleName() + System.lineSeparator() + "группа " + student.getGroup() + System.lineSeparator() + "дата поступления: " + student.getEnrollment());
+        System.out.println(student.getSurname() + " " + student.getName()
+                + " " + student.getMiddleName() + System.lineSeparator() + "группа "
+                + student.getGroup() + System.lineSeparator() + "дата поступления: "
+                + student.getEnrollment());
     }
 }

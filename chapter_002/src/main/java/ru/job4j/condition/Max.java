@@ -11,6 +11,7 @@ public class Max {
         int tempMax = max(first, second);
         return third > tempMax ? third : tempMax;
     }
+
     public int max(int first, int second, int third, int fourth) {
         int tempMax = max(first, second, third);
         return fourth > tempMax ? fourth : tempMax;

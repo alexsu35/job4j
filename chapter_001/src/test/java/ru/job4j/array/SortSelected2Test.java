@@ -4,7 +4,7 @@ import org.junit.Test;
 import static org.hamcrest.core.Is.is;
 import static org.junit.Assert.assertThat;
 
-public class SortSelected_2Test {
+public class SortSelected2Test {
     @Test
     public void whenSort() {
         int[] input = new int[] {3, 4, 1, 2, 5};

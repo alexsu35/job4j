@@ -11,6 +11,7 @@ public class MaxMax {
         return maxMax(first,
                   maxMax(second, third));
     }
+
     public int maxMax(int first, int second, int third, int fourth) {
         return maxMax(first,
                 maxMax(second, third, fourth));

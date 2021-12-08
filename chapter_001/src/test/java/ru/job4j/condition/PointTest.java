@@ -4,14 +4,9 @@ import org.junit.Test;
 import static org.hamcrest.number.IsCloseTo.closeTo;
 import static org.junit.Assert.assertThat;
 
-
-
 public class PointTest {
 
-    /**
-     *  Test distance
-     */
-    @Test
+     @Test
     public void distanceToPoint() {
         Point point = new Point(1, 1);
         assertThat(point.distance(new Point(3, 8)), closeTo(7.28, 0.01));
@@ -22,5 +17,4 @@ public class PointTest {
         Point point = new Point(3, 7);
         assertThat(point.distance(new Point(2, 8)), closeTo(1.41, 0.01));
     }
-
 }

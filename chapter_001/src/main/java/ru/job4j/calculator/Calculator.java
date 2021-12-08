@@ -1,4 +1,4 @@
-package ru.job4j.Calculator;
+package ru.job4j.calculator;
 
 public class Calculator {
     public static void add(double first, double second) {
